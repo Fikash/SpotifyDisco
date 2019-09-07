@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 80%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #ffffff, #c1c4c6);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div,
+button {
+  margin: 15px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  display: block;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  display: block;
+}
+
+#albumDiv {
+  margin: auto;
+  width: 400px;
+  height: 475px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  margin-top: auto;
+}
+
+.topTrackImages {
+  box-shadow: 10px 10px 5px grey;
+}
